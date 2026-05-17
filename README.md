@@ -1,50 +1,114 @@
-# 👋 Hi, I'm Ahmed Shawky
+# 👋 Hello, I'm Ahmed Shawky
 
-### 🔹 Fullstack Developer | Next.js & TypeScript Specialist
-
-I build **end-to-end web applications** with a strong focus on type safety, clean architecture, and production-grade performance. I bridge intuitive UIs with robust backend systems using modern, type-safe stacks.
-
-<p align="center">
-  <a href="https://ahmed-shawky-f1f8.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-1B4332?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="mailto:your-email@example.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D4A373?style=for-the-badge&logo=gmail&logoColor=1A1A1A" alt="Email" />
-  </a>
-  <a href="https://linkedin.com/in/your-profile" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-</p>
+> **Frontend Developer | Next.js Specialist | Aspiring Full-Stack Engineer**  
+> Building scalable, performant web experiences with clean architecture and pragmatic engineering principles.
 
 ---
 
-### 🛠️ Tech Stack & Tools
+## 🚀 About Me
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nextjs,react,typescript,tailwind,postgres,redis,docker,git,github,vscode,linux,nodejs,vercel,javascript,html5,css3,express,graphql,zod,figma,aws,prettier,eslint" alt="Ahmed Shawki Tech Stack" />
-  </a>
-</p>
+I'm a passionate web developer focused on crafting **fast, responsive, and maintainable** applications. Currently working on **"Hekawy"** – a modular monolith platform built with **Next.js 15 App Router**, where I apply **SOLID**, **DDD**, and **RBAC** patterns to solve real-world complexity.
+
+I believe in **simplicity over cleverness**, **documentation over assumptions**, and **architecture before code**. My goal is to bridge the gap between frontend polish and backend robustness – one commit at a time.
 
 ---
 
-### 🧩 Core Expertise
+## 🛠️ تقنياتي ومهاراتي (My Tech Stack)
 
-| Layer | Technologies & Practices |
-|-------|--------------------------|
-| **Frontend** | Next.js 15 (App Router, Server Actions), React, TypeScript, Tailwind CSS, shadcn/ui, Framer Motion, next-intl |
-| **Backend & Data** | PostgreSQL, Drizzle ORM, Server Actions, REST/GraphQL APIs, Valkey (Redis-compatible), Zod Validation |
-| **Architecture** | Modular Monolith, RBAC, SSOT, SOLID, Loose Coupling, Type-Safe Contracts, Open/Closed Principle |
-| **Quality & DevOps** | Docker, CI/CD basics, Strict TypeScript (no `any`), Structured Logging (Winston), Sentry Error Tracking |
-| **Performance** | Route Caching, Edge Optimization, Image Optimization, Bundle Analysis, Core Web Vitals tuning |
+[![My Skills](https://skillicons.dev/icons?i=nextjs,typescript,react,nodejs,postgresql,redis,docker,git,github,linux,tailwind,vscode,vercel)](https://skillicons.dev)
+
+### 🔹 Core Development
+- **Next.js 15** (App Router, Server Actions, Middleware, Edge Runtime)
+- **TypeScript** (strict mode, unified typing, no `any`)
+- **React** (React Hook Form, TanStack Query, shadcn/ui)
+- **Internationalization**: next-intl
+
+### 🔹 Backend & Data
+- **Drizzle ORM** – type-safe database access
+- **PostgreSQL** – relational data modeling
+- **Valkey (Redis-compatible)** – caching & distributed locks via Docker
+- **Sanity CMS** – headless content management
+
+### 🔹 DevOps & Observability
+- **Docker** – local development & service isolation
+- **Sentry** – error tracking & performance monitoring
+- **Winston** – structured logging (never `console.log` in prod 😉)
+- **GitHub Actions** – CI/CD foundations
+
+### 🔹 Architecture & Patterns
+- Modular Monolith design
+- Loose Coupling + Open/Closed Principle
+- SSOT (Single Source of Truth) mindset
+- RBAC (Role-Based Access Control)
+- Distributed sync patterns with retry & failover
 
 ---
 
-### 📐 Engineering Principles I Follow
+## 💡 My Engineering Principles (The Realistic 12)
 
-```text
-✓ Type-Safe by Default    → End-to-end type inference, zero `any`
-✓ Architecture First      → Clear modules, defined interfaces, predictable flow
-✓ Performance by Design   → Strategic caching, optimized payloads, fast TTI
-✓ Observability Matters   → Structured logging, proactive error tracking
-✓ Business-Aligned Code   → Features that solve real problems, built to scale
+These aren't just buzzwords – they're daily practices I follow before writing any major feature:
+
+1. 🚫 **No `any` / `as any`** in TypeScript – type safety is non-negotiable  
+2. 🪵 **Logger over `console`** – structured, level-based logging always  
+3. 🔢 **IDs as strings** – avoid integer leakage & ease future migrations  
+4. 📝 **Document problems & solutions** – future-me will thank present-me  
+5. 🗺️ **Draw architecture before coding** – clarity beats speed in the long run  
+6. 🔄 **Minimize DB migrations** – plan schema changes thoughtfully  
+7. 🔗 **Loose Coupling** – modules communicate, but don't depend  
+8. 🔓 **Open/Closed** – extend behavior, don't modify core  
+9. ✅ **SSOT (Single Source of Truth)** – one canonical data flow  
+10. 🧩 **Unified Typing** – shared types across frontend/backend  
+11. ⚡ **Valkey + Docker for caching** – predictable, portable performance  
+12. 🛑 **Avoid cascade failures** – isolate sync, retry smartly, fail gracefully  
+
+---
+## 🏗️ Architecture Philosophy
+📦 Hekawy – Modular Monolith (Next.js 15)
+│
+├── 🎨 Frontend: React UI + RHF + TanStack Query + next-intl
+├── 🔄 Next.js Layer: App Router + Middleware + Server Actions
+├── 🌐 API Layer: auth / user / admin / sync / webhooks
+├── ⚙️ Business Logic: Services + Domain Entities + RBAC
+├── 🛡️ Resilience: Circuit Breaker + Health Checks + Failover
+├── 🔁 Sync Unit: Queue + Retry + Distributed Lock
+├── 🗄️ Data Access: Repositories + Drizzle + Sanity + Valkey
+├── 🌍 External: PostgreSQL, Sanity, Sentry, Paymob, Google OAuth
+└── 🔔 Webhooks: Sanity → API → Sync Engine
+
+
+I prioritize **maintainability**, **observability**, and **gradual evolution** – because great systems are built, not born.
+
+---
+
+## 🎯 Currently Focusing On
+
+- ✅ Deepening **Domain-Driven Design** patterns in practice  
+- ✅ Refining **ID Unification Strategy** (moving from `googleId` PK → serial `id` + auth fields)  
+- ✅ Exploring **lightweight alternatives** (HTMX, Alpine.js) for specific use-cases  
+- ✅ Writing more **technical content** about architecture decisions & trade-offs  
+- ✅ Contributing to **open-source tools** that solve real developer pain points  
+
+---
+
+## 📫 Let's Connect
+
+I'm always open to discussing:
+- 🤝 Collaborations with startups & product teams  
+- 💬 Architecture reviews or technical mentorship  
+- 🌱 Growth-oriented projects that value clean code & user experience  
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmedshawqi)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmedshawqi)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmed.shawqi@example.com)
+
+---
+
+> *"Code is like humor. When you have to explain it, it's bad."*  
+> But when architecture is clear, even complex systems feel simple. 🏗️✨
+
+---
+
+*🔧 This profile is kept realistic, updated with actual tools I use daily – no hype, just craft.*  
+*Last updated: May 2026*
+
+## 🏗️ Architecture Philosophy
