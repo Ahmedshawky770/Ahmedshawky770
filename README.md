@@ -110,5 +110,3 @@ I'm always open to discussing:
 
 *🔧 This profile is kept realistic, updated with actual tools I use daily – no hype, just craft.*  
 *Last updated: May 2026*
-
-## 🏗️ Architecture Philosophy
