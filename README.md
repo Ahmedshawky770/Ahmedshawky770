@@ -7,7 +7,7 @@
 
 ## 🚀 About Me
 
-I'm a passionate web developer focused on crafting **fast, responsive, and maintainable** applications. Currently working on **"Hekawy"** – a modular monolith platform built with **Next.js 15 App Router**, where I apply **SOLID**, **DDD**, and **RBAC** patterns to solve real-world complexity.
+I'm a passionate web developer focused on crafting **fast, responsive, and maintainable** applications. Currently working on **"Hakawi"** – a modular monolith platform built with **Next.js 15 App Router**, where I apply **SOLID**, **DDD**, and **RBAC** patterns to solve real-world complexity.
 
 I believe in **simplicity over cleverness**, **documentation over assumptions**, and **architecture before code**. My goal is to bridge the gap between frontend polish and backend robustness – one commit at a time.
 
@@ -97,9 +97,10 @@ I'm always open to discussing:
 - 💬 Architecture reviews or technical mentorship  
 - 🌱 Growth-oriented projects that value clean code & user experience  
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmedshawqi)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmedshawqi)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmed.shawqi@example.com)
+[![GitHub]([https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmedshawqi](https://github.com/Ahmedshawky770/Ahmedshawky770))
+[![GitLab](https://gitlab.com/aahmedshawkyy77)
+[![LinkedIn]([https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmedshawqi](https://www.linkedin.com/in/ahmed-shawky-116766262/))
+[![Email](aahmedshawkyy77@gmail.com)
 
 ---
 
