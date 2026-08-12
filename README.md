@@ -97,10 +97,7 @@ I'm always open to discussing:
 - 💬 Architecture reviews or technical mentorship  
 - 🌱 Growth-oriented projects that value clean code & user experience  
 
-<a href="https://github.com"><img src="https://shields.io" alt="GitHub"></a>
-<a href="https://gitlab.com"><img src="https://shields.io" alt="GitLab"></a>
-<a href="https://linkedin.com"><img src="https://shields.io" alt="LinkedIn"></a>
-<a href="mailto:aahmedshawkyy77@gmail.com"><img src="https://shields.io" alt="Email"></a>
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ahmedshawky770/Ahmedshawky770) [![GitLab](https://shields.io)](https://gitlab.com/aahmedshawkyy77) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmed-shawky-116766262/) [![Email](https://shields.io)](mailto:aahmedshawkyy77@gmail.com)
 
 ---
 
