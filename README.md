@@ -97,7 +97,10 @@ I'm always open to discussing:
 - 💬 Architecture reviews or technical mentorship  
 - 🌱 Growth-oriented projects that value clean code & user experience  
 
-[![GitHub](https://shields.io)](https://github.com) [![GitLab](https://shields.io)](https://gitlab.com) [![LinkedIn](https://shields.io)](https://linkedin.com) [![Email](https://shields.io)](mailto:aahmedshawkyy77@gmail.com)
+<a href="https://github.com"><img src="https://shields.io" alt="GitHub"></a>
+<a href="https://gitlab.com"><img src="https://shields.io" alt="GitLab"></a>
+<a href="https://linkedin.com"><img src="https://shields.io" alt="LinkedIn"></a>
+<a href="mailto:aahmedshawkyy77@gmail.com"><img src="https://shields.io" alt="Email"></a>
 
 ---
 
