@@ -63,7 +63,7 @@ These aren't just buzzwords – they're daily practices I follow before writing 
 
 ---
 ## 🏗️ Architecture Philosophy
-📦 Hekawy – Modular Monolith (Next.js 15)
+📦 Hakawi – Monolith (Next.js 15)
 │
 ├── 🎨 Frontend: React UI + RHF + TanStack Query + next-intl
 ├── 🔄 Next.js Layer: App Router + Middleware + Server Actions
