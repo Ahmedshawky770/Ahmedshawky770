@@ -1,6 +1,6 @@
 # 👋 Hello, I'm Ahmed Shawky
 
-> **Frontend Developer | Next.js Specialist | Aspiring Full-Stack Engineer**  
+> **Fullstack Developer | Next.js Specialist |**  
 > Building scalable, performant web experiences with clean architecture and pragmatic engineering principles.
 
 ---
