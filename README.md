@@ -13,7 +13,7 @@ I believe in **simplicity over cleverness**, **documentation over assumptions**,
 
 ---
 
-## 🛠️ تقنياتي ومهاراتي (My Tech Stack)
+## 🛠️  (My Tech Stack)
 
 [![My Skills](https://skillicons.dev/icons?i=nextjs,typescript,react,nodejs,postgresql,redis,docker,git,github,linux,tailwind,vscode,vercel)](https://skillicons.dev)
 
