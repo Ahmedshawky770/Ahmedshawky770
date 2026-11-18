@@ -1,110 +1,131 @@
 # 👋 Hello, I'm Ahmed Shawky
 
-> **Fullstack Developer | Next.js Specialist |**  
-> Building scalable, performant web experiences with clean architecture and pragmatic engineering principles.
+> **Full-Stack Developer | TypeScript & Rust |**  
+> Building scalable web products, resilient architectures, and polished user experiences.
 
 ---
 
 ## 🚀 About Me
 
-I'm a passionate web developer focused on crafting **fast, responsive, and maintainable** applications. Currently working on **"Hakawi"** – a modular monolith platform built with **Next.js 15 App Router**, where I apply **SOLID**, **DDD**, and **RBAC** patterns to solve real-world complexity.
+I'm a Full-Stack Developer focused on crafting **fast, maintainable, and production-ready applications**. I enjoy turning complex product ideas into clean architectures spanning frontend, backend, databases, infrastructure, and developer tooling.
 
-I believe in **simplicity over cleverness**, **documentation over assumptions**, and **architecture before code**. My goal is to bridge the gap between frontend polish and backend robustness – one commit at a time.
+My recent work spans Next.js, React, TypeScript, PostgreSQL, Docker, GitHub Actions, infrastructure-as-code, and systems development with Rust.
+
+I believe in **simplicity over cleverness**, **documentation over assumptions**, and **architecture before code**.
 
 ---
 
-## 🛠️ My Tech Stack
+## Featured Projects
 
-[![My Skills](https://skillicons.dev/icons?i=nextjs,typescript,react,nodejs,postgresql,redis,docker,git,github,linux,tailwind,vscode,vercel)](https://skillicons.dev)
+### [HAKAWI](https://github.com/Ahmedshawky770/HAKAWI)
+
+My primary full-stack product project, built around a modular monolith architecture and a scalable Next.js platform.
+
+- **Stack:** Next.js 15, React, TypeScript, PostgreSQL, Drizzle ORM, Redis-compatible Valkey, Docker, Sanity CMS
+- **Architecture:** Modular monolith, RBAC, distributed synchronization, retry and failover patterns
+- **Platform:** GitHub Actions, infrastructure tooling, observability, payment integration, and OAuth
+
+### [herafinho](https://github.com/Ahmedshawky770/herafinho)
+
+A TypeScript-focused product repository with a strong emphasis on modern full-stack development and database-backed functionality.
+
+- **Stack:** 97.4% TypeScript, PostgreSQL/PLpgSQL, JavaScript, CSS, and Docker
+
+### [FrameForge](https://github.com/Ahmedshawky770/FrameForge)
+
+A systems-oriented project that expands my engineering range beyond web development into Rust and cross-layer product implementation.
+
+- **Stack:** Rust, HTML, and TypeScript
+- **Focus:** Systems implementation, native logic, web interfaces, and technical experimentation
+
+### [hakawi_web](https://github.com/Ahmedshawky770/hakawi_web)
+
+The web-focused companion repository for HAKAWI, with emphasis on React/Next.js interfaces and responsive frontend development.
+
+- **Stack:** TypeScript, JavaScript, and CSS
+
+---
+
+## 🛠️ Tech Stack
+
+[![My Skills](https://skillicons.dev/icons?i=nextjs,typescript,rust,react,nodejs,postgresql,redis,docker,git,github,linux,tailwind,vscode,vercel)](https://skillicons.dev)
 
 ### 🔹 Core Development
-- **Next.js 15** (App Router, Server Actions, Middleware, Edge Runtime)
-- **TypeScript** (strict mode, unified typing, no `any`)
-- **React** (React Hook Form, TanStack Query, shadcn/ui)
-- **Internationalization**: next-intl
+
+- **Next.js / React:** App Router, Server Actions, Middleware, React Hook Form, TanStack Query
+- **TypeScript:** Strict typing and maintainable frontend/backend contracts
+- **Rust:** Systems-oriented development and native application logic
+- **Internationalization:** next-intl
 
 ### 🔹 Backend & Data
-- **Drizzle ORM** – type-safe database access
-- **PostgreSQL** – relational data modeling
-- **Valkey (Redis-compatible)** – caching & distributed locks via Docker
-- **Sanity CMS** – headless content management
 
-### 🔹 DevOps & Observability
-- **Docker** – local development & service isolation
-- **Sentry** – error tracking & performance monitoring
-- **Winston** – structured logging (never `console.log` in prod 😉)
-- **GitHub Actions** – CI/CD foundations
+- **PostgreSQL / PLpgSQL:** Relational modeling and database logic
+- **Drizzle ORM:** Type-safe database access
+- **Valkey:** Caching and distributed locking
+- **Sanity CMS:** Headless content management
+- **REST/API patterns:** Webhooks, OAuth, retries, synchronization, and RBAC
 
-### 🔹 Architecture & Patterns
-- Modular Monolith design
-- Loose Coupling + Open/Closed Principle
-- SSOT (Single Source of Truth) mindset
-- RBAC (Role-Based Access Control)
-- Distributed sync patterns with retry & failover
+### 🔹 DevOps & Infrastructure
 
----
+- **Docker:** Local development and service isolation
+- **GitHub Actions:** CI/CD foundations
+- **HCL:** Infrastructure-as-code tooling
+- **Shell:** Automation and environment setup
+- **Linux:** Development and deployment workflows
 
-## 💡 My Engineering Principles (The Realistic 12)
+### 🔹 Observability & Architecture
 
-These aren't just buzzwords – they're daily practices I follow before writing any major feature:
-
-1. 🚫 **No `any` / `as any`** in TypeScript – type safety is non-negotiable  
-2. 🪵 **Logger over `console`** – structured, level-based logging always  
-3. 🔢 **IDs as strings** – avoid integer leakage & ease future migrations  
-4. 📝 **Document problems & solutions** – future-me will thank present-me  
-5. 🗺️ **Draw architecture before coding** – clarity beats speed in the long run  
-6. 🔄 **Minimize DB migrations** – plan schema changes thoughtfully  
-7. 🔗 **Loose Coupling** – modules communicate, but don't depend  
-8. 🔓 **Open/Closed** – extend behavior, don't modify core  
-9. ✅ **SSOT (Single Source of Truth)** – one canonical data flow  
-10. 🧩 **Unified Typing** – shared types across frontend/backend  
-11. ⚡ **Valkey + Docker for caching** – predictable, portable performance  
-12. 🛑 **Avoid cascade failures** – isolate sync, retry smartly, fail gracefully  
+- **Sentry:** Error tracking and performance monitoring
+- **Structured logging:** Winston and observability-first practices
+- **Architecture:** Modular monolith, loose coupling, SSOT, domain boundaries, and fail-safe patterns
 
 ---
-## 🏗️ Architecture Philosophy
-📦 Hakawi – Monolith (Next.js 15)
-│
-├── 🎨 Frontend: React UI + RHF + TanStack Query + next-intl
-├── 🔄 Next.js Layer: App Router + Middleware + Server Actions
-├── 🌐 API Layer: auth / user / admin / sync / webhooks
-├── ⚙️ Business Logic: Services + Domain Entities + RBAC
-├── 🛡️ Resilience: Circuit Breaker + Health Checks + Failover
-├── 🔁 Sync Unit: Queue + Retry + Distributed Lock
-├── 🗄️ Data Access: Repositories + Drizzle + Sanity + Valkey
-├── 🌍 External: PostgreSQL, Sanity, Sentry, Paymob, Google OAuth
-└── 🔔 Webhooks: Sanity → API → Sync Engine
 
+## 🏗️ Engineering Philosophy
 
-I prioritize **maintainability**, **observability**, and **gradual evolution** – because great systems are built, not born.
+```text
+HAKAWI
+├── 🎨 React / Next.js user interfaces
+├── 🌍 Internationalization and application routing
+├── 🔐 Authentication, authorization, and RBAC
+├── ⚙️ Domain services and business workflows
+├── 🔁 Queueing, distributed locking, retry, and synchronization
+├── 🗄️ PostgreSQL, Drizzle, Sanity, and Valkey
+├── 🛡️ Circuit breakers, health checks, logging, and monitoring
+└── 🔔 Webhooks and external integrations
+```
+
+I prioritize **maintainability**, **observability**, and **gradual evolution**—because great systems are built, not born.
 
 ---
 
 ## 🎯 Currently Focusing On
 
-- ✅ Deepening **Domain-Driven Design** patterns in practice  
-- ✅ Refining **ID Unification Strategy** (moving from `googleId` PK → serial `id` + auth fields)  
-- ✅ Exploring **lightweight alternatives** (HTMX, Alpine.js) for specific use-cases  
-- ✅ Writing more **technical content** about architecture decisions & trade-offs  
-- ✅ Contributing to **open-source tools** that solve real developer pain points  
+- ✅ Deepening **Domain-Driven Design** and modular architectures
+- ✅ Building more robust **sync, retry, and distributed-locking** workflows
+- ✅ Expanding my systems experience with **Rust** through FrameForge
+- ✅ Strengthening **CI/CD, infrastructure, and database reliability**
+- ✅ Improving project documentation and architecture communication
+- ✅ Exploring tools that solve real developer pain points
 
 ---
 
 ## 📫 Let's Connect
 
-I'm always open to discussing:
-- 🤝 Collaborations with startups & product teams  
-- 💬 Architecture reviews or technical mentorship  
-- 🌱 Growth-oriented projects that value clean code & user experience  
+I'm open to discussing:
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ahmedshawky770/Ahmedshawky770) [![GitLab](https://shields.io)](https://gitlab.com/aahmedshawkyy77) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmed-shawky-116766262/) [![Email](https://shields.io)](mailto:aahmedshawkyy77@gmail.com)
+- 🤝 Full-stack product development and startup collaborations
+- 🏗️ Architecture reviews and technical mentorship
+- 🌱 Growth-oriented projects that value clean code and great user experience
 
----
-
-> *"Code is like humor. When you have to explain it, it's bad."*  
-> But when architecture is clear, even complex systems feel simple. 🏗️✨
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ahmedshawky770)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/Ahmedshawky770)
 
 ---
 
-*🔧 This profile is kept realistic, updated with actual tools I use daily – no hype, just craft.*  
-*Last updated: May 2026*
+> *Clean architecture is not complexity—it is the discipline of making the right complexity visible.*
+
+---
+
+*🔧 This profile reflects active projects and practical engineering experience.*  
+*Last updated: November 2026*
