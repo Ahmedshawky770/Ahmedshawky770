@@ -16,7 +16,7 @@ My current main product project: a bilingual Arabic/English platform for stories
 
 [Repository](https://github.com/Ahmedshawky770/HAKAWI)
 
-### Harfino — location-aware service marketplace
+### herafinho — location-aware service marketplace
 A marketplace concept connecting clients with local craftspeople, including service requests and order workflows.
 
 - **Stack:** Next.js, TypeScript, PostgreSQL/PostGIS, Drizzle ORM, Valkey
