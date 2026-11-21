@@ -1,131 +1,62 @@
-# 👋 Hello, I'm Ahmed Shawky
+# Ahmed Shawky
 
-> **Full-Stack Developer | TypeScript & Rust |**  
-> Building scalable web products, resilient architectures, and polished user experiences.
+**Full-Stack Developer | TypeScript & Rust**
 
----
+I build web products and systems software, with an interest in clear domain boundaries, reliable data flows, and practical testing. My work spans product features, backend APIs, databases, deployment tooling, and native desktop software.
 
-## 🚀 About Me
+## Selected projects
 
-I'm a Full-Stack Developer focused on crafting **fast, maintainable, and production-ready applications**. I enjoy turning complex product ideas into clean architectures spanning frontend, backend, databases, infrastructure, and developer tooling.
+### HAKAWI — Arabic storytelling platform
+My current main product project: a bilingual Arabic/English platform for stories, readers, and publishers.
 
-My recent work spans Next.js, React, TypeScript, PostgreSQL, Docker, GitHub Actions, infrastructure-as-code, and systems development with Rust.
+- **Stack:** Next.js App Router, NestJS, TypeScript, PostgreSQL, Drizzle ORM, Valkey
+- **Includes:** authentication and MFA, publishing and social features, moderation, messaging, books, payments, rentals, and administration
+- **Engineering:** modular backend, shared TypeScript contracts, SQL migration runner, automated tests, observability, Docker, and infrastructure-as-code
+- **Status:** Pre-release development. Reliability and deployment checks are still in progress; the repository's CI status is the source of truth.
 
-I believe in **simplicity over cleverness**, **documentation over assumptions**, and **architecture before code**.
+[Repository](https://github.com/Ahmedshawky770/HAKAWI)
 
----
+### Harfino — location-aware service marketplace
+A marketplace concept connecting clients with local craftspeople, including service requests and order workflows.
 
-## Featured Projects
+- **Stack:** Next.js, TypeScript, PostgreSQL/PostGIS, Drizzle ORM, Valkey
+- **Architecture:** npm-workspaces monorepo with a web app, shared packages, background workers, and a WebSocket service
+- **Engineering:** geospatial search, real-time location features, background jobs, event outbox, tests, and CI/CD
+- **Status:** Separate project repository; its latest checked CI runs were not green, so deployment readiness should not be assumed.
 
-### [HAKAWI](https://github.com/Ahmedshawky770/HAKAWI)
+[Repository](https://github.com/Ahmedshawky770/herafinho)
 
-My primary full-stack product project, built around a modular monolith architecture and a scalable Next.js platform.
+### FrameForge — Linux-first video tooling
+An experimental desktop video player and editing project, with a Rust core and a Tauri interface.
 
-- **Stack:** Next.js 15, React, TypeScript, PostgreSQL, Drizzle ORM, Redis-compatible Valkey, Docker, Sanity CMS
-- **Architecture:** Modular monolith, RBAC, distributed synchronization, retry and failover patterns
-- **Platform:** GitHub Actions, infrastructure tooling, observability, payment integration, and OAuth
+- **Stack:** Rust, Tauri 2, libmpv, FFmpeg, HTML, and TypeScript
+- **Focus:** media playback, frame scrubbing, cut/merge planning, and video export
+- **Also includes:** a CLI, reusable Rust crates, and an early playback-only web component
+- **Status:** Experimental; export correctness, platform behavior, and CI still need further validation.
 
-### [herafinho](https://github.com/Ahmedshawky770/herafinho)
+[Repository](https://github.com/Ahmedshawky770/FrameForge)
 
-A TypeScript-focused product repository with a strong emphasis on modern full-stack development and database-backed functionality.
+### Earlier HAKAWI implementation
+I previously built HAKAWI as a Next.js-centered application with PostgreSQL, Drizzle, Sanity, Valkey, authentication, and a broad set of product features. I stopped that iteration after the feature scope and architecture became too coupled, then began the current HAKAWI implementation with clearer frontend/backend boundaries. It is a **legacy project**, not a companion to the current app.
 
-- **Stack:** 97.4% TypeScript, PostgreSQL/PLpgSQL, JavaScript, CSS, and Docker
+## Areas I work with
 
-### [FrameForge](https://github.com/Ahmedshawky770/FrameForge)
+- **Frontend:** TypeScript, React, Next.js, accessible interfaces, Arabic/English localization, RTL
+- **Backend:** NestJS, REST APIs, WebSockets, authentication/authorization, background jobs, event-driven workflows
+- **Data:** PostgreSQL, Drizzle ORM, SQL migrations, PostGIS, Valkey
+- **Systems:** Rust, Tauri, FFmpeg, libmpv
+- **Delivery and operations:** Docker, GitHub Actions, GitLab CI, Terraform, Helm, AWS, structured logging and monitoring
+- **Testing:** Vitest, Playwright, integration tests, migration checks, and load-test tooling
 
-A systems-oriented project that expands my engineering range beyond web development into Rust and cross-layer product implementation.
+## How I approach engineering
 
-- **Stack:** Rust, HTML, and TypeScript
-- **Focus:** Systems implementation, native logic, web interfaces, and technical experimentation
+I value explicit trade-offs, maintainable boundaries, and tests for important user and business flows. I also treat project status honestly: a documented architecture or CI workflow is not, by itself, proof that a feature is production-ready.
 
-### [hakawi_web](https://github.com/Ahmedshawky770/hakawi_web)
+## Contact
 
-The web-focused companion repository for HAKAWI, with emphasis on React/Next.js interfaces and responsive frontend development.
-
-- **Stack:** TypeScript, JavaScript, and CSS
-
----
-
-## 🛠️ Tech Stack
-
-[![My Skills](https://skillicons.dev/icons?i=nextjs,typescript,rust,react,nodejs,postgresql,redis,docker,git,github,linux,tailwind,vscode,vercel)](https://skillicons.dev)
-
-### 🔹 Core Development
-
-- **Next.js / React:** App Router, Server Actions, Middleware, React Hook Form, TanStack Query
-- **TypeScript:** Strict typing and maintainable frontend/backend contracts
-- **Rust:** Systems-oriented development and native application logic
-- **Internationalization:** next-intl
-
-### 🔹 Backend & Data
-
-- **PostgreSQL / PLpgSQL:** Relational modeling and database logic
-- **Drizzle ORM:** Type-safe database access
-- **Valkey:** Caching and distributed locking
-- **Sanity CMS:** Headless content management
-- **REST/API patterns:** Webhooks, OAuth, retries, synchronization, and RBAC
-
-### 🔹 DevOps & Infrastructure
-
-- **Docker:** Local development and service isolation
-- **GitHub Actions:** CI/CD foundations
-- **HCL:** Infrastructure-as-code tooling
-- **Shell:** Automation and environment setup
-- **Linux:** Development and deployment workflows
-
-### 🔹 Observability & Architecture
-
-- **Sentry:** Error tracking and performance monitoring
-- **Structured logging:** Winston and observability-first practices
-- **Architecture:** Modular monolith, loose coupling, SSOT, domain boundaries, and fail-safe patterns
+- [GitHub](https://github.com/Ahmedshawky770)
+- [LinkedIn](https://www.linkedin.com/in/Ahmedshawky770)
 
 ---
 
-## 🏗️ Engineering Philosophy
-
-```text
-HAKAWI
-├── 🎨 React / Next.js user interfaces
-├── 🌍 Internationalization and application routing
-├── 🔐 Authentication, authorization, and RBAC
-├── ⚙️ Domain services and business workflows
-├── 🔁 Queueing, distributed locking, retry, and synchronization
-├── 🗄️ PostgreSQL, Drizzle, Sanity, and Valkey
-├── 🛡️ Circuit breakers, health checks, logging, and monitoring
-└── 🔔 Webhooks and external integrations
-```
-
-I prioritize **maintainability**, **observability**, and **gradual evolution**—because great systems are built, not born.
-
----
-
-## 🎯 Currently Focusing On
-
-- ✅ Deepening **Domain-Driven Design** and modular architectures
-- ✅ Building more robust **sync, retry, and distributed-locking** workflows
-- ✅ Expanding my systems experience with **Rust** through FrameForge
-- ✅ Strengthening **CI/CD, infrastructure, and database reliability**
-- ✅ Improving project documentation and architecture communication
-- ✅ Exploring tools that solve real developer pain points
-
----
-
-## 📫 Let's Connect
-
-I'm open to discussing:
-
-- 🤝 Full-stack product development and startup collaborations
-- 🏗️ Architecture reviews and technical mentorship
-- 🌱 Growth-oriented projects that value clean code and great user experience
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ahmedshawky770)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/Ahmedshawky770)
-
----
-
-> *Clean architecture is not complexity—it is the discipline of making the right complexity visible.*
-
----
-
-*🔧 This profile reflects active projects and practical engineering experience.*  
-*Last updated: November 2026*
+*This profile describes work in progress as well as completed experiments; project status is noted where relevant.*
